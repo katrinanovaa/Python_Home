@@ -5,4 +5,10 @@
 #123 >>> Сумма чисел числа 123 равна 6
 #100 >>> Сумма чисел числа 100 равна 1
 
-print()
+
+a = input('Введите трехзначное число: ')
+oneDigit = int(a[0])
+twoDigit = int(a[1])
+threeDigit = int(a[2])
+
+print('сумма цифр трехзначного числа = ', oneDigit+twoDigit+threeDigit)
